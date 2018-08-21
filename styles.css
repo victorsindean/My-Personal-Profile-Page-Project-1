@@ -105,6 +105,12 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+.dolphin {
+  padding: 10px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -121,6 +127,10 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #71a0c1;
+}
+
+.hobbies li {
+  padding: 10px 10px;
 }
 
 footer {
@@ -173,7 +183,7 @@ a.social:hover {
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 
-  .flex {
+ .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
       max-width: 1200px;
