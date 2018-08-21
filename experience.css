@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f5f0;
+  text-align: center;
+}
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+a:hover {
+  color: #6633ff;
+}
+
+/* Section Styles */
+
+    /* Nav Bar */
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: rgb(161, 215, 219);
+    font-size: 20px;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: white;
+}
+
+.main-image {
+  border: solid 4px black;
+  border-radius: 20px;
+  margin: 70px;
+  transition: all .5s;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+.main-image:hover {
+  border: solid 4px white;
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.main-title {
+  color: white;
+  background-color: black;
+  margin: 20px;
+  opacity: 0.9;
+  padding: 15px 5px;
+  border-radius: 5px;
+}
+
+.section-title {
+  text-transform: capitalize;
+
+}
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.card:hover {
+  border-color: #ff99ff;
+}
+
+
+/* Footer */
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+a.twitter {
+  background-image: url(images/twitter.svg);
+}
+a.linkedin {
+  background-image: url(images/linkedin.svg);
+}
+a.github {
+  background-image: url(images/github.svg);
+}
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
+
+footer {
+  font-size: 1.3em;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding-top: 200px;
+}
